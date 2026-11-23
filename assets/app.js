@@ -245,10 +245,10 @@
             '</div>' +
             '<div class="card">' +
               '<h3>Drugs by ATC class</h3>' +
-              '<p class="cap">Primary ATC level-1 class of each drug.</p>' +
+              '<p class="cap">Primary ATC level-1 class, counted once per drug (unique DrugBank ID).</p>' +
               '<div class="bars">' + atcBarsHTML(D.atcDist) + '</div>' +
               '<p class="card-note">' + nf(unclassN) +
-                ' drugs carry no primary ATC code.</p>' +
+                ' drugs have no ATC code and are not shown as a class.</p>' +
             '</div>' +
             '<div class="card ec">' +
               '<div class="ec-chart">' +
